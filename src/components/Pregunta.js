@@ -9,7 +9,7 @@ const Pregunta = ({ setPresupuesto, setRestante, setMostrarpregunta }) => {
 
   //Funcionque lee el presupuesto
   const definirPresupuesto = (e) => {
-    guardarCantidad(parseInt(e.target.value));
+    guardarCantidad(parseInt(e.target.value, 10));
   };
 
   //Submit para aagrgar presupuesto
